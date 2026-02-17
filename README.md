@@ -98,11 +98,18 @@ O sistema utiliza:
 
 ---
 
-## 🖥️ Preview
+## 📸 Screenshots
 
-![Tela inicial](assets/screenshots/Captura de tela 2026-02-16 211754.png)
-![Tela Formúla gerada](assets/screenshots/Captura de tela 2026-02-16 211820.png)
-![Tela Etiquetas](assets/screenshots/Captura de tela 2026-02-16 211931.png)
+<img src="assets/screenshots/tela-principal.png" width="600">
+
+### Tela Principal
+![Tela Principal](assets/screenshots/telainicial.png)
+
+### Cálculo de Insumos
+![Cálculo](assets/screenshots/telacalculo.png)
+
+### Geração de Etiquetas
+![Etiquetas](assets/screenshots/telaetiquetas.png)
 
 ---
 
