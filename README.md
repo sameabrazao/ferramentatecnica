@@ -100,10 +100,10 @@ O sistema utiliza:
 
 ## 📸 Screenshots
 
-<img src="assets/screenshots/tela-principal.png" width="600">
+<img src="assets/screenshots/telainicio.png" width="600">
 
 ### Tela Principal
-![Tela Principal](assets/screenshots/telainicial.png)
+![Tela Principal](assets/screenshots/telainicio.png)
 
 ### Cálculo de Insumos
 ![Cálculo](assets/screenshots/telacalculo.png)
