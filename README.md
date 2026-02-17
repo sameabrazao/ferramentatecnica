@@ -100,18 +100,14 @@ O sistema utiliza:
 
 ## 📸 Screenshots
 
-<img src="assets/screenshots/telainicio.png" width="600">
-<img src="assets/screenshots/telacalculo.png" width="600">
-<img src="assets/screenshots/telaetiquetas.png" width="600">
-
 ### Tela Principal
-![Tela Principal](assets/screenshots/telainicio.png)
+<img src="assets/screenshots/telainicio.png" width="600">
 
 ### Cálculo de Insumos
-![Cálculo](assets/screenshots/telacalculo.png)
+<img src="assets/screenshots/telacalculo.png" width="600">
 
 ### Geração de Etiquetas
-![Etiquetas](assets/screenshots/telaetiquetas.png)
+<img src="assets/screenshots/telaetiquetas.png" width="600">
 
 ---
 
