@@ -1,0 +1,95 @@
+	body {
+		  margin: 0;
+		  overflow-x: hidden;
+		  background-color: #E6E6FA;
+		}
+	 	  
+	  #etiqueta {
+		display:none;
+		display: grid;
+		grid-template-columns: repeat(4, 1fr);
+		gap: 10px;
+	  }
+	  
+	  #etqbox{
+		display:none;
+	  }
+	  
+	  .etiqueta-box{
+		width: 95%;
+		font-size:9px;
+		display: grid;
+		grid-template-columns: repeat(1, 1fr);
+		gap: 10px;
+		border: 1px solid #000;
+	  }
+	  
+	  .dados{
+		width: 100%;
+		background-color: #F5F5F5;
+		color: black;
+		display: none;
+		justify-content: center;
+		align-items: center;
+		flex-direction: column;
+	  }
+	 
+	  .container {
+		display: flex;
+		justify-content: center; /* Centraliza horizontalmente */
+		align-items: center;    /* Centraliza verticalmente */
+		height: 100vh;           /* Define a altura do pai para a altura da tela */
+		background-color: #E6E6FA;
+	  }
+	  .box {
+		width: 50%;
+		background-color: #F5F5F5;
+		color: black;
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		flex-direction: column;
+	  }
+	  .insumos{
+		display:none;
+	  }
+
+	@media (max-width: 768px) {
+	  .box {
+		width: 95%;
+	  }
+
+	  .container {
+		height: auto;
+		padding: 20px 0;
+	  }
+	}
+
+
+	@media print {
+	  body {
+		margin: 0;
+	  }
+
+	  @page {
+		size: A4;
+		margin: 10mm;
+	  }
+
+	  .container {
+		height: auto;
+		min-height: auto;
+		align-items: flex-start;
+		padding: 0;
+	  }
+
+	  .box {
+		width: 100%;
+		padding: 0;
+	  }
+
+	  #pdf {
+		display: none;
+	  }
+
+	}

@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="style.css">
+  </head>
+<body>
+<script src="script.js"></script>
+<div class="container">
+  <div class="box">
+	<h3 id="titulo">Sistema de Controle e Padronização de Lotes para Cosméticos Artesanais</h3>
+	<img src="assets/logo.png" width="120">
+	<h3 id="texto">Insira no campo abaixo a quantidade de hidrante que deseja produzir:</h3>
+	<input type="number" step="0.01" style="size:30px" id="qtda" placeholder="Valor em ML"/>
+	<br>
+	<button onclick="calcular()" id="cal">Calcular</button>	
+	<div class="insumos" id="ins">
+	<hr>
+	<label id="base"></label><br>
+	<label id="agua"></label><br>
+	<label id="nipagin"></label><br>
+	<label id="ureia"></label><br>
+	<label id="propileno"></label><br>
+	<label id="oleo"></label><br>
+	<label id="extrato"></label><br>
+	<label id="essencia"></label><br>
+	<hr>
+	<strong>Modo de Preparo:</strong>
+	<p> 1. Adicione em uma panela esmaltada a água, leve ao fogo até ficar morna;<br>
+		2. Adicione o nipagin e a ureia e mexa bem até dissolver totalmente; <br>
+		3. Adicione a base de creme e mexa com um fuê ou mix (batedeira ou liquifificador próprio para uso); <br>
+		4. Adicione o propilenoglicol e mexa bem;<br>
+		5. Adicione o oléo vegatal e mexa bem;<br>
+		6. Adicione o extrato glicólico e mexa bem;<br>
+		7. Por fim adicione a essência cosmética.<br>
+	</p>
+	<hr>
+	<button onclick="gerarPDF()" id="pdf">Gerar PDF</button> <button id="btnetiqueta" onclick="gerarEtiqueta()">Gerar Etiqueta</button>	
+	</div>
+	<p><span id="lote"></span> Data: <span id="dataGeracao"></span> Hora: <span id="horaGeracao"></span></p>
+  </div>
+</div>
+
+<div id="dadosEtiqueta" class="dados">
+		<img src="assets/logo.png" width="120">
+		<h3>Preencha os campos a seguir para geração das etiquetas:</h3>
+		<div style="justify-content: space-around">
+			<p>Extrato(s):&nbsp;<input type="text" id="inpextrato" placeholder="Extrato(s) utilizado(s)"/></p>
+			<p>Oléo(s):&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<input type="text" id="inpoleo" placeholder="Oléo(s) utilizado(s)"/></p>
+			<p>Técnico:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<input type="text" id="tecnico" placeholder="Responsável Técnico"/></p>
+			<p>Obsverção:<input type="text" id="inpobs" placeholder="Observações/Advertências"/></p>
+		</div>
+		<button onclick="imprimirEtiqueta()">Imprimir etiquetas</button>
+		<br>
+</div>
+<div id="etiqueta">
+	<div id="etqbox" class="etiqueta-box"></div>
+</div>
+</body>
+</html>
