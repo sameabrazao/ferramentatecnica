@@ -98,6 +98,14 @@ O sistema utiliza:
 
 ---
 
+## 🖥️ Preview
+
+![Tela inicial](assets/screenshots/Captura de tela 2026-02-16 211754.png)
+![Tela Formúla gerada](assets/screenshots/Captura de tela 2026-02-16 211820.png)
+![Tela Etiquetas](assets/screenshots/Captura de tela 2026-02-16 211931.png)
+
+---
+
 ## 👩‍💻 Desenvolvido por
 
 Sâmea Brazão
